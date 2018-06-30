@@ -239,7 +239,7 @@ public class RobotMonitorController implements ActionListener{
     }    
     
     private void setearMapping(){
-        this.mapperController=new MapperController(40,40,0.05);
+        this.mapperController=new MapperController(20,20,0.05);
         this.mapperController.setearMapperEnPanel(this.frmRobotMonitor.canvasMappingPanel);
     }
 }
